@@ -1,7 +1,7 @@
 const recursiveBinarySearch = (array, target, low = 0, high = array.length - 1) => {
   if(low > high) {
     return -1;
-  } 
+  }
   const mid = Math.round((low + high)/2);
   if(array[mid] === target) {
     return mid;
